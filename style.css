@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #000;
+}
+.main{
+    width: 100%;
+}
+.logo{
+color: #FFF;
+padding-left: 20px;
+font-family: Ruda;
+font-size: 29px;
+font-style: normal;
+font-weight: 500;
+}
+.icon img{
+width: 20px;
+height: 20px;
+padding-right: 20px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.list a{       
+    padding: 0px 10px;
+}
+.main_content{
+    width: 100%;
+}
+.main_content{
+    background-image: url("https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg?size=626&ext=jpg&ga=GA1.1.1904413590.1703317874&semt=sph");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_content h1{
+    width:50%;
+    color: white;
+    font-weight: 800;
+    text-align: justify;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main_content p{
+color: #FFF;
+font-family: Ruda;
+font-size: 25px;
+text-align: justify;
+width:30%;
+}
+.line{
+    width: 30%;
+    height: 5px;
+    background-color: brown;
+    border-radius: 6px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.main_content{
+    margin-left: 50px;
+    margin-top: 50px;
+}   
+.heading{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.dough{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.dough p{
+    color: #FFF;
+    font-family: Ruda;
+    font-size: 20px;
+    text-align: justify;
+    width: 40%;
+}
+
+.dough img{
+    width: 40%;
+    margin: 0px;
+}
+.custom-underline {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.custom-underline::after {
+    content: '';
+    position: absolute;
+    
+    bottom: -3px; /* Adjust the distance from the text */
+    width: 160%;
+    height: 5px; /* Adjust the thickness of the underline */
+    background-color: brown; /* Adjust the color of the underline */
+    border-radius: 6px;
+    left: -30%; /* Extend the underline to the left */
+    right: -30%;
+    
+    
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.flex-item{
+    width: 45%;
+    margin-bottom: 20px; /* Adjust space between rows */
+    display: flex;
+    align-items: center;
+}
+
+.flex-item img{
+    display: inline-flex;
+    width: 45%; /* Adjust the size of the image */
+    margin-right: 10px; /* Adjust the space between image and text */
+}
+
+.text-container{
+    
+    font-size: 16px;
+    color: floralwhite;
+}
